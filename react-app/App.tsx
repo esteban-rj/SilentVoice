@@ -5,13 +5,14 @@ import {
   Text,
   TouchableHighlight,
   View,
+  Image,
 } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="light" />
-      <Text>Open up App.js to start working on your app! t</Text>
+      <Text style={styles.text}>Open up App.js to start working on your app! t</Text>
       <Button title="Pulsa Aqui" onPress={() => alert("hola!")}></Button>
       <TouchableHighlight
         underlayColor={"#09f"}
